@@ -1,14 +1,6 @@
 import { Report, ReportCategory, Priority, AIAnalysisResult, AIDuplicateMatch } from '../types/report';
 import { calculateDistanceMeters } from '../utils/cn';
 
-interface AnalyzeParams {
-  title: string;
-  description: string;
-  category?: ReportCategory;
-  location: { lat: number; lng: number; address: string };
-  existingReports: Report[];
-}
-
 export async function analyzeReportWithAI(params: {
   title: string;
   description: string;
