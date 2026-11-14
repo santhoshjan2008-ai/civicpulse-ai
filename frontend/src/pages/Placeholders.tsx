@@ -1,17 +1,6 @@
 import React from 'react';
 import { Card } from '../components/ui/Card';
 
-export const ReportPagePlaceholder: React.FC = () => {
-  return (
-    <div className="max-w-xl mx-auto px-4 py-8">
-      <Card className="p-8 text-center">
-        <h2 className="text-lg font-bold text-slate-800">Citizen Report Phase 1</h2>
-        <p className="text-xs text-slate-500 mt-2">Setting up Capture phase...</p>
-      </Card>
-    </div>
-  );
-};
-
 export const TrackPagePlaceholder: React.FC = () => {
   return (
     <div className="max-w-xl mx-auto px-4 py-8">
