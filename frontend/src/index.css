@@ -8,7 +8,6 @@
   }
   body {
     @apply antialiased text-slate-800 bg-[#F8FAFC];
-    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
   }
 }
 
